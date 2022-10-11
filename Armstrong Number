@@ -1,0 +1,12 @@
+#Armstrong Number
+
+a=153
+s=str(a)
+le=len(s)
+add=0
+for i in s:
+    add=add+int(i)**le
+if add==a:
+    print(a,"Armstrong Number")
+else:
+    print(a,"is Not Armstrong Number")
