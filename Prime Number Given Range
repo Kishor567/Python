@@ -1,0 +1,14 @@
+#Prime Number To Given Range
+a=5
+b=15
+
+for num in range(a,b+1):
+    if a==1:
+        break
+    else:
+        for j in range(2,num):
+            if num%j==0:
+                break
+        else:
+            print(num)
+ 
